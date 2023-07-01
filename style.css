@@ -1,0 +1,78 @@
+/*header Css*/
+
+header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: left;
+    }
+     nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+ header nav ul li.login {
+      margin-left: auto;
+    }
+/*<----------------------------------------->*/
+/*Footer css*/
+ footer{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    color: yellow;
+    text-align: center;
+  }
+/*<----------------------------------------->*/
+
+.homebody {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1;
+  max-width: 90%;
+  margin:10px auto;
+  background-color: #fff;
+  padding: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+   
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 1.5;
+       font-size: 18px;
+    }
+
+    .object-container {
+      margin-top: auto;
+  margin-bottom: 5px;
+}
